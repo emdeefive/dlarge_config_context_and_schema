@@ -3,17 +3,16 @@
       "name": "Config Context Schema 1",
       "description": "Config Context Schema 1."
     },
-    "type": "object",
-    "properties": {
-        "ntp-servers": {
-            "type": "array",
-            "minItems": 2,
-            "maxItems": 2,
-            "items": {
-                "type": "string",
-                "format": "ipv4"
-            }
+    "data_schema": {
+      "title": "NTP Servers",
+      "ntp-servers": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+            "type": "string",
+            "format": "ipv4"
         }
-    },
-    "additionalProperties": false
+    }
+    }
   }
