@@ -1,4 +1,8 @@
 {
+    "_metadata": {
+      "name": "Config Context Schema 1",
+      "description": "Config Context Schema 1."
+    },
     "type": "object",
     "properties": {
         "ntp-servers": {
@@ -12,4 +16,4 @@
         }
     },
     "additionalProperties": false
-}
+  }
