@@ -1,0 +1,14 @@
+{
+    "_metadata": {
+        "name": "NTP servers for location",
+        "weight": 1000,
+        "description": "NTP servers for location",
+        "is_active": true,
+        "locations": [{"name": "Site-1"}],
+        "config_context_schema": "Config Context Schema 1"
+    },
+    "ntp-servers": [
+        "172.16.10.22",
+        "172.16.10.33"
+    ]
+}
