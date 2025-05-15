@@ -1,6 +1,6 @@
 {
     "_metadata": {
-        "name": "Config Context Schema - Sites",
+        "name": "Config Context - Sites",
         "weight": 1000,
         "description": "Config Context Schema - Sites",
         "is_active": true,
