@@ -6,26 +6,21 @@ data_schema:
   title: "Site Variables"
   type: "object"
   properties:
-    ntp:
-      type: "object"
-      properties:
-        servers:
-          type: "array"
-          description: "NTP Servers"
-          minItems: 1
-          maxItems: 2
-          items:
-            type: "object"
-            properties:
-              ip:
-                type: "string"
-                format: "ipv4"
-              prefer:
-                type: "boolean"
-          uniqueItems: true
-          required:
-            - "ip"
+    ntp_servers:
+      type: "array"
+      description: "NTP Servers"
+      minItems: 1
+      maxItems: 2
+      items:
+        type: "object"
+        properties:
+          ip:
+            type: "string"
+            format: "ipv4"
+          prefer:
+            type: "boolean"
+      uniqueItems: true
       required:
-        - "servers"
+        - "ip"
   required:
-    - "ntp"
+    - "ntp_servers"

@@ -7,7 +7,7 @@
         "locations": [{"name": "Site-1"}],
         "config_context_schema": "Config Context Schema - Sites"
     },
-    "ntp-servers": [
+    "ntp_server": [
         "172.16.10.22",
         "172.16.10.33"
     ]
